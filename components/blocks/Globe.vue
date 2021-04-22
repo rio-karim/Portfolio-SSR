@@ -12,29 +12,32 @@
     </canvas>
     <div id="tags" class="d-none">
       <ul>
-        <li><a href="">AJAX</a></li>
+        <li><a href="">Nginx</a></li>
         <li><a href="">SASS</a></li>
         <li><a href="">JSON</a></li>
         <li><a href="">REST</a></li>
         <li><a href="">Node JS</a></li>
         <li><a href="">jQuery</a></li>
-        <li><a href="">Gulp</a></li>
         <li><a href="">JavaScript</a></li>
         <li><a href="">Git</a></li>
         <li><a href="">ES6</a></li>
         <li><a href="">MongoDB</a></li>
+        <li><a href="">MySQL</a></li>
         <li><a href="">BEM</a></li>
         <li><a href="">Agile</a></li>
         <li><a href="">Bootstrap</a></li>
         <li><a href="">AWS</a></li>
-        <li><a href="">Socket.io</a></li>
+        <li><a href="">Route53</a></li>
         <li><a href="">Express</a></li>
         <li><a href="">_underscore</a></li>
-        <li><a href="">npm</a></li>
+        <li><a href="">EC2</a></li>
         <li><a href="">HTML 5</a></li>
         <li><a href="">PHP</a></li>
         <li><a href="">CSS 3</a></li>
-        <li><a href="">HandlebarsJS</a></li>
+        <li><a href="">Vue</a></li>
+        <li><a href="">React</a></li>
+        <li><a href="">TypeScript</a></li>
+        <li><a href="">NestJS</a></li>
       </ul>
     </div>
   </div>
@@ -45,8 +48,8 @@ import { mapState } from 'vuex'
 
 export default {
   computed: mapState('skills', {
-    loader: state => state.loader
-  })
+    loader: (state) => state.loader,
+  }),
 }
 </script>
 

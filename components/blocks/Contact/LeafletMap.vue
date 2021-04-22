@@ -21,9 +21,7 @@ export default {
   },
   components: {},
   methods: {
-    onMapReady() {
-      console.log(this.$L)
-    },
+    onMapReady() {},
   },
 }
 </script>
