@@ -68,7 +68,7 @@
         <li class="Sidebar-item__social-list-item">
           <a
             target="_blank"
-            href="https://www.github.com/rio-Knightley"
+            href="https://www.github.com/rio-k9"
             class="flex-center"
             ><social-icon type="github"
           /></a>
@@ -76,7 +76,7 @@
         <li class="Sidebar-item__social-list-item">
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/rioKnightley/"
+            href="https://www.linkedin.com/in/rio-k9"
             class="flex-center"
             ><social-icon type="linkedin"
           /></a>
