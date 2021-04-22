@@ -30,8 +30,7 @@ export default {
     return {
       map: null,
       center: latLng(51.43778, -2.60318),
-      url:
-        'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png',
+      url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
       attribution:
         '&copy; <a href="https://stadiamaps.com/products/map-tiles/>Stadia Maps</a> contributors',
       zoom: 14,
