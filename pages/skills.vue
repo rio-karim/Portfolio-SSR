@@ -17,8 +17,9 @@
             </p>
             <p class="mb-3">
               I am also capable in basic DevOps duties, such as creating or
-              connecting to EC2 instances, setting up environments and working
-              with both Git and Docker.
+              connecting to EC2 instances, setting up Nginx or running Node
+              scripts with PM2 - setting up environments and working with both
+              Git and Docker.
             </p>
             <p class="mb-3">
               My primary framework of choice for frontend development is VueJS
