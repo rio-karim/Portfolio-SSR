@@ -10,8 +10,8 @@
               <h1 class="mb-1 primary">Skills & Expertise</h1>
             </div>
             <p class="mb-3">
-              My primary area of expertise as a junior developer was in front
-              end development, but as I grew and became more exposed and
+              My primary area of expertise as a young developer was first
+              front-end development, but as I grew and became more exposed and
               experienced with tech, I regularly maintain and build APIs and
               backend services - integrated with MySQL or Mongo.
             </p>
@@ -22,15 +22,16 @@
             </p>
             <p class="mb-3">
               My primary framework of choice for frontend development is VueJS
-              and Nuxt, using Express as a backend service. With these two I
-              have built authentication APIs, server-side rendered operations
-              interfaces and fluid websites.
+              or ReactJS, using Express (ES) or NestJS (TypeScript) as a backend
+              service. With these two I have built authentication APIs,
+              server-side rendered operations interfaces and fluid websites. I
+              am able to use Node to build any application front to back.
             </p>
             <p class="mb-3">
-              Finally I have also made open-source contributions to
-              Vuestorefront, an e-commerce pwa platform for Magento store.
-              Having previously used both PHP and Laravel, i'm always willing to
-              work with different stacks.
+              I have also made open-source contributions to Vuestorefront, an
+              e-commerce pwa platform for Magento store. Having previously used
+              both PHP and Laravel too, i'm always willing to work with
+              different stacks.
             </p>
             <nuxt-link to="/contact" class="btn btn-primary btn-large ml-1">
               Contact me
