@@ -1,6 +1,6 @@
 const pkg = require('./package')
 module.exports = {
-  mode: 'universal',
+  mode: 'spa',
 
   /*
    ** Headers of the page
@@ -52,6 +52,7 @@ module.exports = {
   plugins: [
     { src: "~/plugins/google-maps", ssr: false },
     { src: "~/plugins/vue-notification", ssr: true },
+    { src: '~plugins/leaflet-js', ssr: false, mode: 'client' }
   ],
 
   /*
