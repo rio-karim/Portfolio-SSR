@@ -23,9 +23,9 @@
         <li>Message:' .$message .'</li>
         </ul>
     ';
-    $to = "rio.karim@gmail.com";
+    $to = "rio.Knightley@gmail.com";
     $headers = "MIME-Version: 1.0" ."\r\n";
     $headers .="Content-Type:text/html;charset=UTF-8" ."\r\n";
-    $headers .= "From: New Message <noreply@riokarim.co.uk>" ."\r\n";
+    $headers .= "From: New Message <noreply@rioKnightley.co.uk>" ."\r\n";
     mail($to,$subject,$body,$headers);
     echo json_encode(['status' => 200]);

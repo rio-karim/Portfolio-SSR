@@ -6,12 +6,12 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: 'Rio Karim | Web Developer',
+    title: 'Rio Knightley | Web Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Experienced Developer with a demonstrated history of engineering applications. Skilled in Laravel, Vue.js, Node.JS, SQL, PHP, MongoDB, AWS, JavaScript.' },
-      { hid: 'title', name: 'title', content: 'Rio Karim | Web Developer' },
+      { hid: 'title', name: 'title', content: 'Rio Knightley | Web Developer' },
       { name: 'theme-color', content: '' },
       { name: 'msapplication-TileColor', content: '' },
       { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' }

@@ -18,24 +18,24 @@ const state = {
     'https://datalyse.io',
     'https://instantecare.com',
     'https://instantecare.com',
-    'https://rio-karim.github.io/mr-crypto/',
+    'https://rio-k9.github.io/mr-crypto/',
     'https://instantecare.com',
-    'https://rio-karim.github.io/websoar/',
+    'https://rio-k9.github.io/websoar/',
     'https://2132.io'
   ],
   urlCache: {
     '1.png': 'https://datalyse.io',
     '2.png': 'https://instantecare.com',
     '3.png': 'https://instantecare.com',
-    '4.png': 'https://rio-karim.github.io/mr-crypto/',
+    '4.png': 'https://rio-k9.github.io/mr-crypto/',
     '5.png': 'https://instantecare.com',
-    '6.png': 'https://rio-karim.github.io/websoar/',
-    '7.png': 'https://rio-karim.github.io/websoar/',
+    '6.png': 'https://rio-k9.github.io/websoar/',
+    '7.png': 'https://rio-k9.github.io/websoar/',
     '8.png': 'https://datalyse.io',
     '9.png': 'https://datalyse.io',
-    '10.png': 'https://rio-karim.github.io/mr-crypto/',
+    '10.png': 'https://rrio-k9.github.io/mr-crypto/',
     '11.png': 'https://datalyse.io',
-    '12.png': 'https://rio-karim.github.io/mr-crypto/',
+    '12.png': 'https://rio-k9.github.io/mr-crypto/',
     '13.png': 'https://datalyse.io',
     '14.png': 'https://instantecare.com',
     '15.png': 'https://pilltime.co.uk',
@@ -60,10 +60,10 @@ const actions = {
         state.target = newTarget
         state.faded = true
         setTimeout(() => {
-          let newImg = random(1, 16)
+          let newImg = random(1, 18)
           let imgExists = state.imageList.includes(`${newImg}.png`)
           while (imgExists) {
-            newImg = random(1, 16)
+            newImg = random(1, 18)
             imgExists = state.imageList.includes(`${newImg}.png`)
           }
           state.imageList[state.target] = `${newImg}.png`

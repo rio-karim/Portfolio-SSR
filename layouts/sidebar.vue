@@ -68,7 +68,7 @@
         <li class="Sidebar-item__social-list-item">
           <a
             target="_blank"
-            href="https://www.github.com/rio-karim"
+            href="https://www.github.com/rio-Knightley"
             class="flex-center"
             ><social-icon type="github"
           /></a>
@@ -76,7 +76,7 @@
         <li class="Sidebar-item__social-list-item">
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/riokarim/"
+            href="https://www.linkedin.com/in/rioKnightley/"
             class="flex-center"
             ><social-icon type="linkedin"
           /></a>
@@ -93,23 +93,23 @@ import SocialIcon from '~/components/blocks/Sidebar/SocialIcons'
 export default {
   components: {
     SidebarIcon,
-    SocialIcon
+    SocialIcon,
   },
   data() {
     return {
-      hasMounted: false
+      hasMounted: false,
     }
   },
   computed: mapState('ui', {
-    view: state => state.view,
-    menu: state => state.menu
+    view: (state) => state.view,
+    menu: (state) => state.menu,
   }),
   mounted() {
     this.hasMounted = true
   },
   methods: mapActions('ui', {
-    openMenu: 'menu'
-  })
+    openMenu: 'menu',
+  }),
 }
 </script>
 
