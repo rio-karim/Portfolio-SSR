@@ -2,7 +2,7 @@
   <div class="GoogleMaps" >
   <client-only>
    <l-map :zoom=14 :center="[51.437780,-2.603180]">
-     <l-tile-layer url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"></l-tile-layer>
+     <l-tile-layer url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"></l-tile-layer>
      <l-marker :lat-lng="[51.437780,-2.603180]"></l-marker>
    </l-map>
 </client-only>

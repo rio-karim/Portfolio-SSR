@@ -17,16 +17,16 @@ import { mapActions } from 'vuex'
 import Sidebar from '~/layouts/sidebar'
 export default {
   components: {
-    Sidebar
+    Sidebar,
   },
   watch: {
     $route: {
-      handler: function(to) {
+      handler: function (to) {
         this.setView(to.name)
       },
       deep: true,
-      immediate: true
-    }
+      immediate: true,
+    },
   },
   created() {
     this.$router.beforeEach((to, from, next) => {
@@ -36,8 +36,8 @@ export default {
     this.$router.afterEach((to, from) => {})
   },
   methods: mapActions('ui', {
-    setView: 'view'
-  })
+    setView: 'view',
+  }),
 }
 </script>
 <style lang="scss">
@@ -96,11 +96,13 @@ body {
   .Notifications {
     position: fixed;
     right: 0;
+    z-index: -10000;
     top: 0;
     height: 100vh;
     width: 200px;
     .vue-notification {
       padding: 10px;
+      z-index: 10000;
       margin: 0 5px 5px;
       position: relative;
       font-size: 12px;
