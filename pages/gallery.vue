@@ -9,12 +9,12 @@ import Mosaic from '~/components/blocks/Portfolio/Mosaic'
 export default {
   head() {
     return {
-      title: 'Rio Karim | Gallery'
+      title: 'Rio Knightley | Gallery',
     }
   },
   components: {
-    Mosaic
-  }
+    Mosaic,
+  },
 }
 </script>
 

@@ -54,15 +54,15 @@ import Globe from '~/components/blocks/Globe'
 export default {
   head() {
     return {
-      title: 'Rio Karim | Skills'
+      title: 'Rio Knightley | Skills',
     }
   },
   components: {
     Loader,
-    Globe
+    Globe,
   },
   computed: mapState('skills', {
-    loader: state => state.loader
+    loader: (state) => state.loader,
   }),
   mounted() {
     this.startGlobe()
@@ -72,8 +72,8 @@ export default {
   },
   methods: mapActions('skills', {
     stopGlobe: 'stop',
-    startGlobe: 'start'
-  })
+    startGlobe: 'start',
+  }),
 }
 </script>
 

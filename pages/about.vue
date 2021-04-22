@@ -10,7 +10,7 @@
               <h1 class="mb-1 primary">About Me</h1>
             </div>
             <p class="mb-3">
-              Since I began my career 4 years ago I have built and collaborated
+              Since I began my career 5 years ago I have built and collaborated
               on open-source projects, microservices front-to-back, and designed
               several great websites.
             </p>
@@ -19,12 +19,12 @@
               <a href="https://www.cardiff.ac.uk/computer-science"
                 >Cardiff University</a
               >
-              to graduate from post-graduate Computer Science, where I learned a
-              variety of languages - including Java, Assembly, Python and
-              JavaScript. Following the support, communication and collaboration
-              of fellow graduates, I began working in a startup with some of my
-              university alumni. In those 6 months we built, marketed and
-              launched a CRM SaaS service called
+              to study post-graduate Computer Science, where I learned a variety
+              of languages - including Java, Assembly, Python and JavaScript.
+              Following the support, communication and collaboration of fellow
+              graduates, I began working in a startup with some of my university
+              alumni. In those 6 months we built, marketed and launched a CRM
+              SaaS service called
               <a href="https://datalyse.io/en/" target="_blank">Datalyse</a>.
             </p>
             <p class="mb-3">
@@ -42,14 +42,12 @@
               internal operations, and NHS guidelines.
             </p>
             <p class="mb-3">
-              In early 2019, I then moved with my CTO to work at another online
+              In early 2019, my CTO and team began to work with another startup
               pharmacy
               <a href="https://www.instantecare.co.uk/">Instant eCare (IEC)</a>,
-              working with Express, Nuxt, and Magento to build frontends and
-              backend services to support their sales and operations. Following
-              changes to pharmacy regulations, in 2020 I have since moved
-              towards a more Data Science centric roll as a Full-stack
-              developer, working on ethical data services for
+              to migrate their Magento services from PHP to VueStoreFront. Since
+              2020 I have worked a more Data Science centric roll as a
+              Full-stack developer, working on ethical data services for
               <a href="https://2132.io/">21:32</a> - working with clients such
               as McDonalds, Starbucks and other huge franchises.
             </p>
@@ -68,13 +66,13 @@ import WebsoarLogo from '~/components/blocks/About/WebsoarLogo'
 export default {
   head() {
     return {
-      title: 'Rio Karim | About'
+      title: 'Rio Knightley | About',
     }
   },
   components: {
-    WebsoarLogo
+    WebsoarLogo,
   },
-  computed: {}
+  computed: {},
 }
 </script>
 

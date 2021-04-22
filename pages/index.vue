@@ -34,22 +34,22 @@ import HomeLogo from '~/components/blocks/Home/Logo'
 export default {
   head() {
     return {
-      title: 'Rio Karim | Home'
+      title: 'Rio Knightley | Home',
     }
   },
   components: {
-    HomeLogo
+    HomeLogo,
   },
   data() {
     return {
-      hasMounted: false
+      hasMounted: false,
     }
   },
   mounted() {
     setTimeout(() => {
       this.hasMounted = true
     }, 50)
-  }
+  },
 }
 </script>
 

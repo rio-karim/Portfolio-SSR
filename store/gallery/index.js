@@ -20,7 +20,8 @@ const state = {
     'https://instantecare.com',
     'https://rio-karim.github.io/mr-crypto/',
     'https://instantecare.com',
-    'https://rio-karim.github.io/websoar/'
+    'https://rio-karim.github.io/websoar/',
+    'https://2132.io'
   ],
   urlCache: {
     '1.png': 'https://datalyse.io',
@@ -37,7 +38,10 @@ const state = {
     '12.png': 'https://rio-karim.github.io/mr-crypto/',
     '13.png': 'https://datalyse.io',
     '14.png': 'https://instantecare.com',
-    '15.png': 'https://pilltime.co.uk'
+    '15.png': 'https://pilltime.co.uk',
+    '16.png': 'https://2132.io',
+    '17.png': 'https://2132.io',
+    '18.png': 'https://2132.io'
   }
 }
 const getters = {}

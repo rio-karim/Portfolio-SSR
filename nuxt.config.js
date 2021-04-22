@@ -12,9 +12,9 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Experienced Developer with a demonstrated history of engineering applications. Skilled in Laravel, Vue.js, Node.JS, SQL, PHP, MongoDB, AWS, JavaScript.' },
       { hid: 'title', name: 'title', content: 'Rio Karim | Web Developer' },
-      { name: 'theme-color', content:'' },
-      { name: 'msapplication-TileColor', content:'' },
-      { name: 'msapplication-TileImage', content:'/ms-icon-144x144.png' }
+      { name: 'theme-color', content: '' },
+      { name: 'msapplication-TileColor', content: '' },
+      { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
@@ -30,7 +30,7 @@ module.exports = {
       { rel: 'apple-touch-icon', type: 'image/png', sizes: '144x144', href: '/apple-icon-144x144.png' },
       { rel: 'apple-touch-icon', type: 'image/png', sizes: '152x152', href: '/apple-icon-152x152.png' },
       { rel: 'apple-touch-icon', type: 'image/png', sizes: '180x180', href: '/apple-icon-180x180.png' },
-      { rel: 'stylesheet',  href: 'https://fonts.googleapis.com/css?family=Dancing+Script|Raleway|Ubuntu:300,400,500,700'},
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Dancing+Script|Raleway|Ubuntu:300,400,500,700' },
       { rel: 'manifest', href: '/manifest.json' }
     ],
     script: []
@@ -49,26 +49,27 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-plugins: [
-  { src: "~/plugins/google-maps", ssr: false },
-  { src: "~/plugins/vue-notification", ssr: true }
-],
+  plugins: [
+    { src: "~/plugins/google-maps", ssr: false },
+    { src: "~/plugins/vue-notification", ssr: true },
+  ],
 
   /*
    ** Nuxt.js modules
    */
   modules: [
     '@nuxtjs/pwa',
+    'nuxt-leaflet',
     'nuxt-svg-loader',
     '@nuxtjs/style-resources',
     'bootstrap-vue/nuxt'
   ],
   styleResources: {
-     // your settings here
-     scss: ['@/vendor/scss/variables.scss'],
-     less: [],
-     stylus: []
-    },
+    // your settings here
+    scss: ['@/vendor/scss/variables.scss'],
+    less: [],
+    stylus: []
+  },
   /*
    ** Axios module configuration
    */
@@ -83,24 +84,10 @@ plugins: [
   /*
    ** Build configuration
    */
-   build: {
-     /*
-     ** You can extend webpack config here
-     */
-     transpile: [/^vue2-google-maps($|\/)/],
-     extend(config, ctx) {
-       // Run ESLint on save
-       if (ctx.isDev && ctx.isClient) {
-         config.module.rules.push({
-           enforce: 'pre',
-           test: /\.(js|vue)$/,
-           loader: 'eslint-loader',
-           exclude: /(node_modules)/,
-           options: {
-             fix: true
-           }
-         })
-       }
-     }
-   }
+  build: {
+    /*
+    ** You can extend webpack config here
+    */
+    transpile: [/^vue2-google-maps($|\/)/],
+  }
 }

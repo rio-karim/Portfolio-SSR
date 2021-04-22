@@ -1,6 +1,6 @@
 # PORTFOLIO MIGRATION FROM PHP (TBC)
 
-> Rio Karim, Web Developer
+> Rio Knightley, Web Developer
 
 ## Build Setup
 

@@ -85,3 +85,8 @@ p{
     }
   }
 }
+
+
+.leaflet-tile {
+    -webkit-filter: hue-rotate(-70deg) invert(100%);
+}

@@ -17,7 +17,7 @@
           </div>
         </div>
         <div class="Contact__item col-12 col-lg-7 pb-5 pb-lg-0">
-          <google-maps class="p-4 p-lg-0" />
+          <leaflet-map class="p-4 p-lg-0" />
         </div>
       </div>
     </div>
@@ -25,19 +25,19 @@
 </template>
 
 <script>
-import GoogleMaps from '~/components/blocks/Contact/GoogleMaps'
+import LeafletMap from '~/components/blocks/Contact/LeafletMap'
 import EmailForm from '~/components/blocks/Contact/EmailForm'
 
 export default {
   head() {
     return {
-      title: 'Rio Karim | Contact'
+      title: 'Rio Knightley | Contact',
     }
   },
   components: {
-    GoogleMaps,
-    EmailForm
-  }
+    LeafletMap,
+    EmailForm,
+  },
 }
 </script>
 
